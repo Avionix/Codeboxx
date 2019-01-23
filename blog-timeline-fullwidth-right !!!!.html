@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Rocket Elevetors</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_smarty/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- SLIDE TOP -->
+		<div id="slidetop">
+
+			<div class="container">
+				
+				<div class="row">
+
+					<div class="col-md-4">
+						<h6><i class="icon-heart"></i> WHY ROCKET ELEVATORS?</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Ut enim massa, sodales tempor convallis et, iaculis ac massa. </p>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="fa-facheck"></i> RECENTLY VISITED</h6>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> This is a very long text, very very very very very very very very very very very very </a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Dolor sit amet,consectetur adipiscing elit amet</a></li>
+							<li><a href="#"><i class="fa fa-angle-right"></i> Consectetur adipiscing elit amet,consectetur adipiscing elit</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
+						<h6><i class="icon-envelope"></i> CONTACT INFO</h6>
+						<ul class="list-unstyled">
+							<li><b>Address:</b> 418-725 Boulvard Lebourgneuf, <br /> Quéebec, Quénec, G2J 0C4</li>
+							<li><b>Phone:</b> (418) 580-7055</li>
+							<li><b>Email:</b> <a href="mailto:support@yourname.com">support@yourname.com</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+			<a class="slidetop-toggle" href="#"><!-- toggle button --></a>
+
+		</div>
+		<!-- /SLIDE TOP -->
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+			<div id="header" class="navbar-toggleable-md sticky clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- BUTTONS -->
+						<ul class="float-right nav nav-pills nav-second-main">
+
+							<!-- SEARCH -->
+							<li class="search">
+								<a href="javascript:;">
+									<i class="fa fa-search"></i>
+								</a>
+								<div class="search-box">
+									<form action="page-search-result-1.html" method="get">
+										<div class="input-group">
+											<input type="text" name="src" placeholder="Search" class="form-control" />
+											<span class="input-group-btn">
+												<button class="btn btn-primary" type="submit">Search</button>
+											</span>
+										</div>
+									</form>
+								</div> 
+							</li>
+							<!-- /SEARCH -->
+
+						</ul>
+						<!-- /BUTTONS -->
+
+						<!-- Logo -->
+						<a class="logo float-left" href="index.html">
+							<img src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\R2.png" alt="" />
+						</a>
+
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li class="dropdown"><!-- HOME -->
+										<a class="dropdown-toggle" href="#">
+											HOME
+										</a>
+										<ul class="dropdown-menu">
+											<li class="dropdown">
+												<a class="dropdown-toggle" href="#">
+													HOME CORPORATE
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="index-corporate-1.html">Request for submission</a></li>
+													<li><a href="index-corporate-2.html">Service for residential buildings</a></li>
+													<li><a href="index-corporate-3.html">Service for corporate</a></li>
+												</ul>
+											</li>
+									
+										</ul>
+									</li>
+									<li class="dropdown"><!-- PAGES -->
+										<a class="dropdown-toggle" href="#">
+											PORTFOLIO
+										</a>
+										<ul class="dropdown-menu">
+											<li class="dropdown">
+												<a class="dropdown-toggle" href="#">
+													AWARD
+												</a>
+												<ul class="dropdown-menu">
+													<li><a href="portfolio-single-project.html">EXCELLENCE</a></li>
+												</ul>
+											</li>
+										</ul>
+
+									</li>
+
+									<!-- 
+										MENU ANIMATIONS
+											.nav-animate-fadeIn
+											.nav-animate-fadeInUp
+											.nav-animate-bounceIn
+											.nav-animate-bounceInUp
+											.nav-animate-flipInX
+											.nav-animate-flipInY
+											.nav-animate-zoomIn
+											.nav-animate-slideInUp
+
+											.nav-hover-animate 		= animate text on hover
+
+											.hover-animate-bounceIn = bounceIn effect on mouse over of main menu
+									-->
+									<li class="dropdown mega-menu nav-animate-fadeIn nav-hover-animate hover-animate-bounceIn"><!-- THEMATIC -->
+										<a class="dropdown-toggle noicon" href="#">
+											<b><li><a target="_blank" href="pack-realestate-home-1.html">About Us</a></li></b>
+										</a>
+										<ul class="dropdown-menu dropdown-menu-clean">
+											<li>
+												<div class="row">
+
+													<div class="col-md-5th">
+														<ul class="list-unstyled">
+														</p>
+													</div>
+
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+			-->
+			<section class="page-header dark page-header-xs">
+				<div class="container">
+
+					<h1>Rocket Elevators</h1>
+
+					<!-- breadcrumbs -->
+					<ol class="breadcrumb">
+						<li><a href="#">Home</a></li>
+					</ol><!-- /breadcrumbs -->
+
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+
+
+
+			<!-- -->
+			<section>
+				<div class="container">
+ 
+							<!-- carousel -->
+							<div class="flexslider" data-arrowNav="false" data-slideshowSpeed="7000">
+								<ul class="slides">
+								
+									<!-- Slide 1 -->
+									<li>
+										<a href="#">
+											<a href="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-1.html"><img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\AdobeStock_130711085.jpeg" width="600" height="399" alt="">
+											<div id="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-1.html">REQUEST FOR SUBMISSION</div>
+										</a>
+
+									</li>
+									
+									<!-- Slide 2 -->
+									<li>
+										<a href="#">
+											<a href="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-2.html"><img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\AdobeStock_3294993.jpeg" width="600" height="399" alt="">
+											<div id="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-2.html">SERVICE FOR RESIDENTIAL BUILDINGS</div>
+										</a>
+									</li>
+
+									<!-- Slide 3 -->
+									<li>
+										<a href="#">
+											<a href="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-3.html"><img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\AdobeStock_179073967.jpeg" width="600" height="399" alt="">
+											<div id="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-3.html">SERVICE FOR RESIDENTIAL BUILDINGS</div>
+										</a>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+							<!-- /carousel -->
+
+							<h2><a href="blog-single-default.html">OUR SERVICES</a></h2>
+
+							<ul class="blog-post-info list-inline">
+								<li>
+									<a href="#">
+										<i class="fa fa-clock-o"></i> 
+										<span class="font-lato">June 29, 2017</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-comment-o"></i> 
+										<span class="font-lato">28 Comments</span>
+									</a>
+								</li>
+								<li>
+									<i class="fa fa-folder-open-o"></i> 
+
+									<a class="category" href="#">
+										<span class="font-lato">Design</span>
+									</a>
+									<a class="category" href="#">
+										<span class="font-lato">Photography</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-user"></i> 
+										<span class="font-lato">John Doe</span>
+									</a>
+								</li>
+							</ul>
+
+							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+							<a href="blog-single-default.html" class="btn btn-reveal btn-default b-0 btn-shadow-1">
+								<i class="fa fa-plus"></i>
+								<span>Read More</span>
+							</a>
+
+						</div>
+						<!-- /POST ITEM -->
+
+						<!-- /POST ITEM -->
+
+
+					</div>
+
+			<!-- -->
+			<section class="alternate">
+				<div class="container">
+					
+					<!-- FEATURED BOXES 3 -->
+					<div class="row">
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-lifesaver"></i>
+								<h4>Founded since 1976</h4>
+								<p>Always so faithful !</p>
+
+								<a href="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-1.html">
+								</a>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-wine"></i>
+								<h4>SUBMISSION</h4>
+								<p>Make your quote now, for free!</p>
+
+								<a href="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-1.html">
+									Read
+									<!-- /word rotator -->
+									<span class="word-rotator" data-delay="2000">
+										<span class="items">
+											<span>more</span>
+											<span>now</span>
+										</span>
+									</span><!-- /word rotator -->
+									<i class="glyphicon glyphicon-menu-right fs-12"></i>
+								</a>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-circle-compass"></i>
+								<h4>Contact us</h4>
+								<p>Contact us for more information !</p>
+
+								<a href="pack-hotel-rooms-detail.html">
+									Read
+									<!-- /word rotator -->
+									<span class="word-rotator" data-delay="2000">
+										<span class="items">
+											<span>more</span>
+											<span>now</span>
+										</span>
+									</span><!-- /word rotator -->
+									<i class="glyphicon glyphicon-menu-right fs-12"></i>
+								</a>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-6">
+							<div class="text-center">
+								<i class="ico-light ico-lg ico-rounded ico-hover et-presentation"></i>
+								<h4>About Rocket Elevators</h4>
+								<p>More information </p>
+
+								<a href="pack-hotel-rooms-detail.html">
+									Read
+									<!-- /word rotator -->
+									<span class="word-rotator" data-delay="2000">
+										<span class="items">
+											<span>more</span>
+											<span>now</span>
+										</span>
+									</span><!-- /word rotator -->
+									<i class="glyphicon glyphicon-menu-right fs-12"></i>
+								</a>
+
+							</div>
+						</div>
+					</div>
+					<!-- /FEATURED BOXES 3 -->
+					
+				</div>
+			</section>
+			<!-- / -->
+					
+
+				<!-- /CAROUSEL ELEVATOR -->
+				<!-- 
+	controlls-over		= navigation buttons over the image 
+	buttons-autohide 	= navigation buttons visible on mouse hover only
+	
+	data-plugin-options:
+		"singleItem": true
+		"autoPlay": true (or ms. eg: 4000)
+		"navigation": true
+		"pagination": true
+		"transitionStyle":"fadeUp" (fade,backSlide,goDown,fadeUp)
+-->
+    <h2><a href="blog-single-default.html">PORTFOLIO</a></h2>
+<div class="owl-carousel buttons-autohide controlls-over" data-plugin-options='{"singleItem": true, "autoPlay": true, "navigation": true, "pagination": true, "transitionStyle":"fadeUp"}'>
+	<div>
+			<h4><a href="blog-single-default.html">WINNER OF THE HÉLIX AWARD FOR THE MOST MODERN ELEVATOR OF 2016</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\a3bc23fd058956f925a2b3ec38a38dbc.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">THE MOST EFFICIENT ELEVATORS IN COMPAGNIES</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\AdobeStock_3294993.jpeg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">ANTIQUE ELEVATORS DESIGNS</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\Antique-Elevator-17.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">WINNER OF THE AWARD OF EXCELLENCE</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\house-plans-with-elevators-with-clear-glasses-elevator-installed-in-livingroom-and-near-wooden-staircase.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">FIRST SPHERE-SHAPED ELEVATOR</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\whqsWl5.0.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">AWARD OF EXCELLENCE IN CUSTOMER SERVICE</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\elevator-pitch-franchise-sales.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">TECHNOLOGICAL LIFT CREATOR</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\ADAM_elevator_3ed.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">WINNER OF THE BEST DESIGN AWARD OF 2018</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\elevator.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">WORLD'S FASTEST ELEVATOR</a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\elevator-reuters.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">FIRST HORIZONTAL LIFT IN THE WORLD </a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\ele2.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">WORLD'S TALLEST GLASS ELEVATOR </a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\6.jpg" alt="">
+	</div>
+	<div>
+			<h4><a href="blog-single-default.html">FIRST ELEVATOR IN AN AQUARIUM IN THE WORLD </a></h4>
+		<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\2B12425000000578-0-image-a-22_1438622493795.jpg" alt="">
+	</div>
+</div>
+				<!-- /IMAGE -->
+				
+				            <!-- EXPLORE -->
+			<section>
+				<div class="container">
+
+
+					<header class="text-center mb-60">
+						<h2 class="fs-25">PORTFOLIO</h2>
+						<p class="fw-300">See our greatest successes and our prices!.</p>
+					</header>
+
+
+					<div class="row property-item-list">
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20" href="pack-realestate-property-list-1.html">
+									
+									<!-- RIBBON -->
+									<div class="property-ribbon">
+										<span class="bg-olive text-white">43 NEW</span>
+									</div>
+									
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\whqsWl5.0.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-success">
+										43 NEW
+									</small>
+
+									<strong class="text-primary">
+										Upper West Side
+										<span class="block fw-300 fs-14 text-black">New York</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20" href="pack-realestate-property-list-1.html">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="demo_files/images/packs/realestate/gallery/location/loc-2-min.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+										356 HOUSES
+									</small>
+
+									<strong class="text-primary">
+										West Village
+										<span class="block fw-300 fs-14 text-black">New York</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20" href="pack-realestate-property-list-1.html">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="demo_files/images/packs/realestate/gallery/location/loc-3-min.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+										89 HOUSES
+									</small>
+
+									<strong class="text-primary">
+										Murray Hill
+										<span class="block fw-300 fs-14 text-black">New York</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20" href="pack-realestate-property-list-1.html">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="demo_files/images/packs/realestate/gallery/location/loc-4-min.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+										55 HOUSES
+									</small>
+
+									<strong class="text-primary">
+										Soho
+										<span class="block fw-300 fs-14 text-black">New York</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20" href="pack-realestate-property-list-1.html">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="demo_files/images/packs/realestate/gallery/location/loc-5-min.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+										1876 HOUSES
+									</small>
+
+									<strong class="text-primary">
+										Williamsburg
+										<span class="block fw-300 fs-14 text-black">New York</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+
+						<div class="col-12 col-md-4 col-sm-6">
+
+							<div class="property-item property-item-box radius-0">
+
+								<!-- IMAGE -->
+								<a class="property-image mb-20" href="pack-realestate-property-list-1.html">
+									<img class="img-fluid lazy" src="assets/images/_smarty/lazy-loadimg.png" data-original="demo_files/images/packs/realestate/gallery/location/loc-6-min.jpg" alt="">
+								</a>
+
+
+								<!-- PRICE and STREET LOCATION -->
+								<h4 class="property-item-price">
+									<small class="float-right text-silver">
+										889 HOUSES
+									</small>
+
+									<strong class="text-primary">
+										Caroll Gardens
+										<span class="block fw-300 fs-14 text-black">New York</span>
+									</strong>
+								</h4>
+
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+
+					<div class="text-center mt-30">
+
+						<a href="#" class="btn btn-primary bg-black border-black">VIEW ALL NEIGHBORHOODS</a>
+
+					</div>
+
+
+				</div>
+			</section>
+			<!-- /EXPLORE -->
+
+
+				<!-- /CAROUSEL CEO-->
+
+				<div class="lightbox" data-plugin-options='{"delegate": "a", "gallery": {"enabled": true}}'>
+						<div class="owl-carousel-2 owl-centered-focus" data-plugin-options='{
+							"responsiveBaseElement":	"#wrapper", 
+							"loop":						true, 
+							"margin":					0, 
+					
+							"nav":						true, 
+							"dots":						false, 
+					
+							"center":					true, 
+							"slideBy":					"1", 
+							"autoplay":					true, 
+							"autoplayTimeout":			4500, 
+							"autoWidth":				false,
+							"merge":					true,
+							"rtl":						false,
+					
+							"animateIn":				"flipInX",
+							"animateOut":				"flipOutX",
+					
+							"responsive": {
+								"0":	{"items":1},
+								"600":	{"items":2},
+								"1000":	{"items":2}
+							}
+					
+						}'>
+					
+							<a href="demo_files/images/packs/realestate/gallery-item/2-min.jpg" class="image-hover-plus image-hover-overlay">
+								<i class="icon-hover-plus"></i>
+								<img class="img-fluid" src="C:\Users\Jey\Desktop\Genessis\GenesisProgram\Rocket Elevator Assets\TA0LESZM3-UCB8XPEV6-885138464865-72.png" alt="">
+							</a>
+					
+							<a href="demo_files/images/packs/realestate/gallery-item/6-min.jpg" class="image-hover-plus image-hover-overlay">
+								<i class="icon-hover-plus"></i>
+								<img class="img-fluid" src="demo_files/images/packs/realestate/gallery-item/6-min.jpg" alt="">
+							</a>
+					
+						</div>
+					
+					</div>
+
+
+				</div>
+			</section>
+			<!-- / -->
+
+			
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+					<div class="row">
+						
+						<div class="col-md-3">
+
+							<!-- Small Description -->
+							<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+							<!-- Contact Address -->
+							<address>
+								<ul class="list-unstyled">
+									<li class="footer-sprite address">
+										418-725, Boulevard Lebourgneuf<br>
+										Québec, Québec<br>
+										G2J 0C4<br>
+									</li>
+									<li class="footer-sprite phone">
+										Phone: (418) 580-7055
+									</li>
+									<li class="footer-sprite email">
+										<a href="mailto:support@yourname.com">support@yourname.com</a>
+									</li>
+								</ul>
+							</address>
+							<!-- /Contact Address -->
+
+						</div>
+
+						<div class="col-md-3">
+
+							<!-- Latest Blog Post -->
+							<h4 class="letter-spacing-1">LATEST NEWS</h4>
+							<ul class="footer-posts list-unstyled">
+								<li>
+									<a href="file:///C:/Users/Jey/Desktop/Genessis/GenesisProgram/Smarty/HTML_BS4/index-corporate-1.html">REQUEST FOR SUBMISSION</a>
+									<small>22 January 2019</small>
+								</li>
+								<li>
+									<a href="#">Contact us</a>
+									<small>22 January 2019</small>
+								</li>
+								<li>
+									<a href="#">Founded since 1976</a>
+									<small></small>
+								</li>
+							</ul>
+							<!-- /Latest Blog Post -->
+
+						</div>
+
+						<div class="col-md-2">
+
+							<!-- Links -->
+							<h4 class="letter-spacing-1">EXPLORE SMARTY</h4>
+							<ul class="footer-links list-unstyled">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Our Services</a></li>
+								<li><a href="#">Our Clients</a></li>
+								<li><a href="#">Our Pricing</a></li>
+								<li><a href="#">Smarty Tour</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-4">
+
+							<!-- Newsletter Form -->
+							<h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
+							<p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+							<!-- Social Icons -->
+							<div class="mt-20">
+								<a href="#" class="social-icon social-icon-border social-facebook float-left" data-toggle="tooltip" data-placement="top" title="Facebook">
+
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-twitter float-left" data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-gplus float-left" data-toggle="tooltip" data-placement="top" title="Google plus">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-linkedin float-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
+									<i class="icon-linkedin"></i>
+									<i class="icon-linkedin"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-border social-rss float-left" data-toggle="tooltip" data-placement="top" title="Rss">
+									<i class="icon-rss"></i>
+									<i class="icon-rss"></i>
+								</a>
+					
+							</div>
+							<!-- /Social Icons -->
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="float-right m-0 list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul>
+						&copy; All Rights Reserved, Company LTD
+					</div>
+				</div>
+			</footer>
+			<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+		
+		<!-- STYLESWITCHER - REMOVE -->
+		<script async src="demo_files/styleswitcher/styleswitcher.js"></script>
+
+		
+	</body>
+</html>
